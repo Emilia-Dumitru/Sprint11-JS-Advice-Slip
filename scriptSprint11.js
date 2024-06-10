@@ -1,4 +1,4 @@
-const textAdvice = document.getElementById("advice-text");
+const textAdviceElement = document.getElementById("advice-text");
 
 async function getAdvice() {
     const url = "https://api.adviceslip.com/advice";
